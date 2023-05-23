@@ -57,7 +57,7 @@ open class PinchToZoomImageView: UIImageView {
         }
     }
     
-    open override var contentMode: UIViewContentMode {
+    open override var contentMode: UIView.ContentMode {
         didSet {
             imageViewCopy.contentMode = contentMode
         }
